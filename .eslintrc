@@ -1,6 +1,7 @@
 {
   "extends": "@imaginary-cloud/react",
   "rules": {
-    "no-unused-vars": "warn"
+    "no-unused-vars": "warn",
+    "react/no-array-index-key": "off"
   }
 }

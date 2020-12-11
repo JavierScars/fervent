@@ -1,5 +1,71 @@
 {
-  "events": [],
-  "users": [],
+  "events": [
+    {
+      "id": 0,
+      "name": "Primer Evento",
+      "location": "Online-Event",
+      "userId": "0",
+      "type": 1,
+      "date": "2020-12-21",
+      "tags": "Christmas",
+      "description": "New Year Party",
+      "image": "https://png.pngtree.com/png-clipart/20191120/original/pngtree-night-leaf-neon-design-png-image_5044684.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Segundo Evento",
+      "location": "Online-Event",
+      "userId": "0",
+      "type": 0,
+      "date": "2020-12-22",
+      "tags": "Christmas",
+      "description": "New Year Party",
+      "image": "https://png.pngtree.com/png-clipart/20191120/original/pngtree-night-leaf-neon-design-png-image_5044684.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Tercer Evento",
+      "location": "Online-Event",
+      "userId": "0",
+      "type": 0,
+      "date": "2020-12-23",
+      "tags": "Christmas",
+      "description": "New Year Party",
+      "image": "https://png.pngtree.com/png-clipart/20191120/original/pngtree-night-leaf-neon-design-png-image_5044684.jpg"
+    },
+    {
+      "id": 3,
+      "name": "WWWWWWWWWWWWWW WWWWW",
+      "location": "Online-Event",
+      "userId": "0",
+      "type": 1,
+      "date": "2020-12-04",
+      "tags": "Christmas",
+      "description": "New Year Party",
+      "image": "https://png.pngtree.com/png-clipart/20191120/original/pngtree-night-leaf-neon-design-png-image_5044684.jpg"
+    },
+    {
+      "id": 4,
+      "name": "WWWWWWWWWWWWWW WWWWW",
+      "location": "Online-Event",
+      "userId": "0",
+      "type": 1,
+      "date": "2020-12-04",
+      "tags": "Christmas",
+      "description": "New Year Party",
+      "image": "https://png.pngtree.com/png-clipart/20191120/original/pngtree-night-leaf-neon-design-png-image_5044684.jpg"
+    }
+  ],
+  "users": [
+    {
+      "id": "0",
+      "firstName": "Fernando",
+      "lastName": "Gómez",
+      "avatar": "url",
+      "birthday": "1996-06-26",
+      "username": "javierscars",
+      "password": "12345"
+    }
+  ],
   "favoritesEvents": []
 }
