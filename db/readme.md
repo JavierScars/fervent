@@ -24,6 +24,8 @@ dbObject: users
 > lastName: **String**
 > avatar: **String** _(url)_
 > birthday: **Date**
+> username: **String**
+> password: **String**
 
 ### 3. FavoritesEvents
 
