@@ -58,6 +58,13 @@ const newTheme = extendTheme({
         boxShadow: 'none !important',
         borderColor: 'inherit !important',
       },
+      '.react-datepicker__input-container input.input-group__datepicker': {
+        bgColor: 'transparent',
+        h: '1rem',
+        textAlign: 'center',
+        fontWeight: '300',
+        padding: 0,
+      },
     }),
   },
   breakpoints,

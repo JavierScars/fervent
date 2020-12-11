@@ -42,14 +42,16 @@ const HeaderComponent = () => (
         >
           New Event
         </Button>
-        <Button
-          color="white"
-          colorScheme="white"
-          variant="outline"
-          marginLeft="1rem"
-        >
-          Log In
-        </Button>
+        <Link to="/signin">
+          <Button
+            color="white"
+            colorScheme="white"
+            variant="outline"
+            marginLeft="1rem"
+          >
+            Log In
+          </Button>
+        </Link>
       </Box>
     </Flex>
     <Box

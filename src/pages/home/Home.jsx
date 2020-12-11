@@ -18,6 +18,7 @@ import {
   FooterComponent,
   HeaderComponent,
   EventCardComponent,
+  Background,
 } from '../../components/index'
 import 'swiper/swiper.scss'
 import 'react-datepicker/dist/react-datepicker.css'
@@ -122,16 +123,7 @@ const HomePage = () => {
 
   return (
     <Flex direction="column" minH="100vh">
-      <Img
-        position="fixed"
-        bottom="0"
-        zIndex="-1"
-        opacity="1"
-        minW="100vw"
-        src={`${process.env.PUBLIC_URL}/background.jpg`}
-        alt="background"
-        height="100vh"
-      />
+      <Background />
       <HeaderComponent></HeaderComponent>
       <Box flexGrow="1" margin="auto" height="100%" width="100%">
         <Heading
@@ -169,7 +161,7 @@ const HomePage = () => {
           Next Events
         </Heading>
         <Box bgColor="rgba(50,50,50,0.3)" height="24rem">
-          {events && (
+          {nextEvents && nextEvents.length && (
             <Swiper
               spaceBetween={30}
               slidesPerView={3}

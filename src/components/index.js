@@ -1,4 +1,5 @@
 const { HeaderComponent } = require('./Header')
 const { FooterComponent } = require('./Footer')
 const { EventCardComponent } = require('./EventCard')
-export { HeaderComponent, FooterComponent, EventCardComponent }
+const { Background } = require('./Background')
+export { HeaderComponent, FooterComponent, EventCardComponent, Background }
